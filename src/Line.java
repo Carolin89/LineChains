@@ -14,22 +14,6 @@ class Line {
         return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
     }
 
-    public boolean canConnect(Line other) {
-        return (this.x2 == other.x1 && this.y2 == other.y1) ||
-                (this.x1 == other.x2 && this.y1 == other.y2) ||
-                (this.x1 == other.x1 && this.y1 == other.y1) ||
-                (this.x2 == other.x2 && this.y2 == other.y2);
-    }
-
-    public Line connect(Line other) {
-        if (this.x2 == other.x1 && this.y2 == other.y1) {
-            return new Line(this.x1, this.y1, other.x2, other.y2);
-        } else if (this.x1 == other.x2 && this.y1 == other.y2) {
-            return new Line(other.x1, other.y1, this.x2, this.y2);
-        }
-        return null;
-    }
-
     Point getStartPoint() {
         return new Point((int)x1, (int) y1);
     }
