@@ -35,7 +35,7 @@ class Line {
     }
 
     /**
-     * Returns the start point of the line segment as a {@link Point}.
+     * Returns the start point of the line segment as a Point.
      *
      * @return the start point of the line segment
      */
@@ -45,8 +45,8 @@ class Line {
 
 
     /**
-     * Returns the end point of the line segment as a {@link Point}.
-     *
+     * Returns the end point of the line segment as a Point.
+     *F
      * @return the end point of the line segment
      */
     Point getEndPoint() {

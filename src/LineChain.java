@@ -32,7 +32,7 @@ class LineChain {
     /**
      * Returns the list of lines in the chain.
      *
-     * @return a list of {@link Line} objects that make up the chain
+     * @return a list of Line objects that make up the chain
      */
     List<Line> getLines() {
         return lines;
