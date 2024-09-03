@@ -5,7 +5,7 @@ import java.util.List;
  * Represents a chain of connected lines.
  * Provides methods to add lines to the chain and to calculate the total length of the chain.
  */
-class LineChain {
+public class LineChain {
     List<Line> lines;
     double length;
 
