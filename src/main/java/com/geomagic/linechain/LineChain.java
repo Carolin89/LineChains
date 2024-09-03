@@ -1,3 +1,5 @@
+package com.geomagic.linechain;
+
 import java.util.ArrayList;
 import java.util.List;
 

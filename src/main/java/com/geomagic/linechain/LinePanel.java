@@ -1,8 +1,8 @@
+package com.geomagic.linechain;
+
 import javax.swing.*;
 import java.awt.*;
-import java.util.*;
 import java.awt.geom.Line2D;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 

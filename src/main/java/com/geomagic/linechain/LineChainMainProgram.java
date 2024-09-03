@@ -1,6 +1,7 @@
+package com.geomagic.linechain;
+
 import javax.swing.*;
 import java.awt.*;
-import java.util.*;
 import java.util.Arrays;
 import java.util.List;
 
