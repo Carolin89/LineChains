@@ -1,3 +1,5 @@
+package com.geomagic.linechain;
+
 import java.awt.*;
 
 
@@ -6,7 +8,7 @@ import java.awt.*;
  * Provides methods to calculate the length of the line and to determine
  * if the line connects to another line.
  */
-class Line {
+public class Line {
     double x1, y1, x2, y2;
 
     /**
